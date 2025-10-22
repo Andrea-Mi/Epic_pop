@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Header con título y botón volver -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/primary"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="@color/on_primary"
+            android:contentDescription="Volver" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Asistente IA"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/on_primary"
+            android:gravity="center" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:lottie_rawRes="@raw/ai_thinking"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+    <!-- Lista de mensajes del chat -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <!-- Indicador de "pensando" -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_thinking"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/thinking_dots"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true" />
+
+    <!-- Botones de respuestas rápidas -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_motivation"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="💪 Motivación"
+                android:textSize="12sp"
+                style="@style/Widget.Material3.Button.TonalButton"
+                app:cornerRadius="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_suggest_challenge"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="🎯 Nuevo Reto"
+                android:textSize="12sp"
+                style="@style/Widget.Material3.Button.TonalButton"
+                app:cornerRadius="18dp"
+                android:layout_marginEnd="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="💡 Consejos"
+                android:textSize="12sp"
+                style="@style/Widget.Material3.Button.TonalButton"
+                app:cornerRadius="18dp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!-- Input de mensaje -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:background="@color/surface"
+        android:elevation="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Escribe tu mensaje..."
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLines="4"
+            android:minLines="1"
+            android:background="@drawable/message_input_background"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp" />
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/send_button_background"
+            android:src="@drawable/ic_send"
+            android:tint="@color/on_primary"
+            android:contentDescription="Enviar mensaje" />
+
+    </LinearLayout>
+
+</LinearLayout>

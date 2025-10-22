@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <!-- Icono del logro -->
+    <ImageView
+        android:id="@+id/iv_achievement_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_star"
+        android:background="@drawable/circle_background"
+        android:padding="8dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Contenido del logro -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_achievement_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primera Racha"
+            android:textColor="@color/on_surface"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_achievement_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Completaste tu primer día de retos!"
+            android:textColor="@color/gray_dark"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tv_achievement_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15 Dic 2024"
+            android:textColor="@color/gray_dark"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp" />
+
+    </LinearLayout>
+
+    <!-- Puntos obtenidos -->
+    <TextView
+        android:id="@+id/tv_achievement_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+50 pts"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>

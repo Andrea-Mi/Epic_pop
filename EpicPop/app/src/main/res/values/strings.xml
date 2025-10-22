@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EpicPop</string>
+
+    <!-- Pantallas principales -->
+    <string name="splash_subtitle">Transforma tus retos en épicas aventuras</string>
+    <string name="login_title">Inicia tu aventura épica</string>
+    <string name="register_title">Crea tu cuenta épica</string>
+    <string name="main_greeting">¡Hola, %s!</string>
+    <string name="your_challenges">Tus retos</string>
+    <string name="progress_label">Progreso</string>
+
+    <!-- Formularios -->
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="challenge_title_hint">Título del reto</string>
+    <string name="challenge_description_hint">Descripción del reto</string>
+
+    <!-- Botones -->
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_button">Registrarse</string>
+    <string name="save_challenge">Guardar Reto</string>
+    <string name="add_challenge">Agregar Reto</string>
+    <string name="send_message">Enviar</string>
+
+    <!-- Navegación -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_list">Lista</string>
+    <string name="nav_achievements">Logros</string>
+    <string name="nav_calendar">Calendario</string>
+    <string name="nav_settings">Configuración</string>
+
+    <!-- Categorías -->
+    <string name="category_sports">Deportes</string>
+    <string name="category_study">Estudio</string>
+    <string name="category_ecology">Ecología</string>
+    <string name="category_health">Salud</string>
+    <string name="category_creativity">Creatividad</string>
+
+    <!-- Dificultades -->
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Medio</string>
+    <string name="difficulty_hard">Difícil</string>
+
+    <!-- Estados -->
+    <string name="status_pending">Pendiente</string>
+    <string name="status_in_progress">En Progreso</string>
+    <string name="status_completed">Completado</string>
+
+    <!-- Mensajes de éxito -->
+    <string name="login_success">¡Bienvenido %s!</string>
+    <string name="register_success">¡Registro exitoso! Ya puedes iniciar sesión</string>
+    <string name="challenge_created">¡Reto creado exitosamente!</string>
+    <string name="challenge_updated">¡Reto actualizado!</string>
+    <string name="challenge_completed">¡Reto completado! 🎉</string>
+
+    <!-- Mensajes de error -->
+    <string name="error_empty_field">Este campo es requerido</string>
+    <string name="error_invalid_email">Email no válido</string>
+    <string name="error_weak_password">La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas, números y símbolos</string>
+    <string name="error_passwords_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_login_failed">Email o contraseña incorrectos</string>
+    <string name="error_registration_failed">Error al registrar usuario</string>
+    <string name="error_email_exists">Ya existe una cuenta con este email</string>
+    <string name="error_challenge_save">Error al guardar el reto</string>
+    <string name="error_ai_connection">No pude procesar tu mensaje en este momento. Por favor intenta de nuevo más tarde. 🤖</string>
+    <string name="error_invalid_form">Por favor completa todos los campos correctamente</string>
+    <string name="error_current_password_incorrect">La contraseña actual no es correcta</string>
+
+    <!-- IA Assistant -->
+    <string name="ai_welcome">¡Hola %s! 🎯\n\nSoy tu asistente de IA de EpicPop. Estoy aquí para ayudarte con:\n• Motivación personalizada\n• Sugerencias de nuevos retos\n• Consejos para mantener tus rachas\n• Análisis de tu progreso\n\n¿En qué te puedo ayudar hoy?</string>
+    <string name="ai_thinking">Pensando…</string>
+    <string name="ai_motivation_request">Dame un mensaje motivacional para seguir con mis retos</string>
+    <string name="ai_suggest_challenge">Sugiéreme un nuevo reto personal interesante</string>
+    <string name="ai_daily_tips">Dame consejos para mantener la motivación diaria</string>
+
+    <!-- Opciones -->
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="register_link">Regístrate</string>
+    <string name="login_link">Inicia sesión</string>
+
+    <!-- Progreso y estadísticas -->
+    <string name="progress_percentage">%d%%</string>
+    <string name="stars_earned">%d estrellas ganadas</string>
+    <string name="streak_days">%d días de racha</string>
+    <string name="level_current">Nivel %d</string>
+
+    <!-- Validaciones -->
+    <string name="validation_title_min">El título debe tener al menos 3 caracteres</string>
+    <string name="validation_username_min">El nombre debe tener al menos 3 caracteres</string>
+
+    <!-- Edit Challenge Screen -->
+    <string name="edit_challenge_title">Editar reto</string>
+    <string name="action_preview">Vista previa</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="section_details">Detalles</string>
+    <string name="label_description">Descripción</string>
+    <string name="hint_challenge_title">Título del reto</string>
+
+    <!-- Settings and notifications -->
+    <string name="settings_saved">Configuración guardada</string>
+    <string name="settings_profile_name">Usuario</string>
+    <string name="settings_logout_confirm">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="settings_logout_ok">Cerrar sesión</string>
+    <string name="opt_logout">Cerrar sesión</string>
+
+    <!-- Change Password -->
+    <string name="change_password_title">Cambiar contraseña</string>
+    <string name="new_password_hint">Nueva contraseña</string>
+    <string name="confirm_new_password_hint">Confirmar nueva contraseña</string>
+    <string name="save_new_password">Guardar nueva contraseña</string>
+    <string name="password_changed_success">✅ Contraseña actualizada correctamente</string>
+    <string name="passwords_dont_match">⚠️ Las contraseñas no coinciden</string>
+    <string name="password_too_weak">La contraseña es muy débil</string>
+    <string name="password_strength_weak">Débil</string>
+    <string name="password_strength_medium">Media</string>
+    <string name="password_strength_strong">Fuerte</string>
+    <string name="password_strength_very_strong">Muy fuerte</string>
+    <string name="password_min_length">La contraseña debe tener al menos 8 caracteres</string>
+    <string name="password_strength_fair">Regular</string>
+    <string name="password_strength_good">Buena</string>
+
+    <!-- Privacy and Security -->
+    <string name="privacy_security_title">Privacidad y seguridad</string>
+    <string name="privacy_description">Tu privacidad es importante para nosotros. Aquí puedes gestionar tu contraseña y configuraciones de seguridad.</string>
+    <string name="change_password_button">Cambiar contraseña</string>
+    <string name="recover_password_button">Recuperar contraseña</string>
+    <string name="current_password_hint">Contraseña actual</string>
+    <string name="save_password_changes">Guardar cambios</string>
+    <string name="privacy_security_header">Privacidad y seguridad</string>
+    <string name="privacy_security_description">Administra tu contraseña y opciones de seguridad.</string>
+    <string name="recover_password_full">Recuperar contraseña</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Configuración de notificaciones</string>
+    <string name="daily_motivation_title">Motivación diaria</string>
+    <string name="daily_motivation_desc">Recibe mensajes motivacionales cada día</string>
+    <string name="challenge_reminders_title">Recordatorios de retos</string>
+    <string name="challenge_reminders_desc">Te recordaremos tus retos pendientes</string>
+    <string name="achievements_desc">Notificaciones cuando completes logros</string>
+
+    <!-- Privacy Dialog -->
+    <string name="opt_privacy_security">Privacidad y seguridad</string>
+    <string name="privacy_message">Tu privacidad es importante para nosotros. Aquí puedes gestionar tu contraseña y configuraciones de seguridad.</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="change_password_description">Ingresa una nueva contraseña segura para tu cuenta</string>
+    <string name="confirm_password_hint_new">Confirmar nueva contraseña</string>
+    <string name="password_requirements">Mínimo 8 caracteres, incluye mayúsculas, minúsculas, números y símbolos</string>
+    <string name="passwords_not_match">Las contraseñas no coinciden</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_back">Volver</string>
+    <string name="cd_mascot">Mascota</string>
+
+    <!-- Edit Challenge Activity -->
+    <string name="label_name">Nombre</string>
+    <string name="label_frequency">Frecuencia</string>
+    <string name="hint_frequency_daily">Diario</string>
+    <string name="label_date">Fecha</string>
+    <string name="date_range_example">01/01/2024 - 31/01/2024</string>
+    <string name="label_category">Categoría</string>
+    <string name="hint_category_health">Salud</string>
+    <string name="label_status">Estado</string>
+    <string name="hint_status_pending">Pendiente</string>
+    <string name="delete_challenge">Eliminar reto</string>
+
+    <!-- Feedback Activity -->
+    <string name="feedback_title">Ayuda y comentarios</string>
+    <string name="feedback_hint">Escribe tu comentario o sugerencia aquí...</string>
+    <string name="feedback_send">Enviar comentario</string>
+    <string name="feedback_faq">Preguntas frecuentes</string>
+    <string name="feedback_contact">Contactar soporte</string>
+    <string name="feedback_empty">Por favor ingresa tu comentario</string>
+    <string name="feedback_thanks">¡Gracias por tu comentario!</string>
+    <string name="feedback_thanks_message">Tu comentario es muy valioso para nosotros. Lo revisaremos y trabajaremos para mejorar tu experiencia.</string>
+    <string name="feedback_contact_subject">Soporte EpicPop - Consulta</string>
+
+    <!-- Notification Settings -->
+    <string name="notifications_receive">Recibir notificaciones</string>
+    <string name="notifications_toggle">Activar/Desactivar notificaciones</string>
+
+    <!-- Settings Activity -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_view_profile">Ver perfil</string>
+    <string name="opt_edit_notifications">Notificaciones</string>
+    <string name="opt_app_theme">Tema de la aplicación</string>
+    <string name="opt_help_feedback">Ayuda y comentarios</string>
+    <string name="settings_placeholder">Configuración disponible</string>
+
+    <!-- Content descriptions for icons -->
+    <string name="cd_avatar">Avatar del usuario</string>
+    <string name="cd_ic_bell">Icono de notificación</string>
+    <string name="cd_chevron">Flecha de navegación</string>
+    <string name="cd_ic_palette">Icono de paleta de colores</string>
+    <string name="cd_ic_shield">Icono de escudo de seguridad</string>
+    <string name="cd_ic_help">Icono de ayuda</string>
+    <string name="cd_ic_arrow_left">Flecha hacia la izquierda</string>
+
+    <!-- Theme Settings -->
+    <string name="theme_title">Seleccionar tema</string>
+    <string name="theme_purple">Tema púrpura</string>
+    <string name="theme_yellow">Tema amarillo</string>
+    <string name="theme_green">Tema verde</string>
+    <string name="theme_blue">Tema azul</string>
+    <string name="theme_red">Tema rojo</string>
+    <string name="theme_dark">Tema oscuro</string>
+    <string name="theme_light">Tema claro</string>
+    <string name="theme_default">Tema predeterminado</string>
+
+    <!-- Achievements -->
+    <string name="achievements_title">Tus Logros</string>
+    <string name="achievements_empty_hint">¡Sigue completando retos para desbloquear más logros!</string>
+    <string name="achievements_share">Compartir</string>
+    <string name="achievements_share_text">Mira mis logros en EpicPop: %1$d logros y %2$d retos completados. ¡Únete a la aventura! ⚡</string>
+    <string name="achievements_streak">Racha actual: %1$d días</string>
+    <string name="achievements_total_retos">Retos completados: %1$d</string>
+    <string name="achievement_level_bronze">Bronce</string>
+    <string name="achievement_level_silver">Plata</string>
+    <string name="achievement_level_gold">Oro</string>
+    <string name="achievement_level_label">Nivel logro: %1$s</string>
+    <string name="achievement_unlocked">¡Logro desbloqueado!</string>
+    <string name="achievement_new_challenge_completed">¡Reto completado!</string>
+    <string name="achievement_category_health">¡Salud en acción! 💪</string>
+    <string name="achievement_category_sports">¡Energía deportiva! 🏅</string>
+    <string name="achievement_category_study">¡Mente en crecimiento! 📘</string>
+    <string name="achievement_category_ecology">¡Guardian del planeta! 🌱</string>
+    <string name="achievement_category_creativity">¡Creatividad desatada! 🎨</string>
+    <string name="achievement_dynamic_message_fallback">¡Excelente trabajo! Sigue así.</string>
+    <string name="achievement_milestone_bronze">¡Lograste 5 retos completados! Nivel Bronce alcanzado.</string>
+    <string name="achievement_milestone_silver">¡10 retos completados! Nivel Plata desbloqueado.</string>
+    <string name="achievement_milestone_gold">¡20 retos completados! Nivel Oro conquistado.</string>
+    <string name="achievement_points_format">+%1$d pts</string>
+
+    <!-- Streak Calendar -->
+    <string name="streak_calendar_title">Calendario de Rachas</string>
+    <string name="streak_current">Racha actual: %1$d días</string>
+    <string name="streak_day_on_time">Completaste todos los retos de ese día a tiempo.</string>
+    <string name="streak_day_catch_up">¡Catch-up! Completaste los retos del día siguiente.</string>
+    <string name="streak_day_missed">No completaste todos los retos en ese día.</string>
+    <string name="streak_prev_month">Mes anterior</string>
+    <string name="streak_next_month">Mes siguiente</string>
+
+    <!-- Perfil / Edición de nombre -->
+    <string name="edit_profile_title">Editar perfil</string>
+    <string name="edit_profile_name_hint">Nuevo nombre de usuario</string>
+    <string name="edit_profile_save">Guardar</string>
+    <string name="edit_profile_cancel">Cancelar</string>
+    <string name="edit_profile_name_updated">Nombre actualizado correctamente</string>
+    <string name="edit_profile_name_invalid">El nombre debe tener al menos 3 caracteres</string>
+    <string name="profile_total_yellow_stars">%1$d ★</string>
+    <string name="profile_current_streak_days">%1$d días</string>
+    <string name="profile_best_streak">Mejor racha: %1$d días</string>
+    <string name="tooltip_yellow_stars">Estrellas amarillas: días en que completaste todos tus retos a tiempo.</string>
+    <string name="tooltip_streak">Días de racha: días consecutivos completando todos tus retos.</string>
+    <string name="streak_new_record">¡Nueva racha máxima! ¡Sigue así!</string>
+</resources>

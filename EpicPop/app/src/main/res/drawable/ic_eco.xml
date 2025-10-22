@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="@color/category_ecologia">
+  <path
+      android:fillColor="@android:color/white"
+      android:pathData="M17,8C8,10 5.9,16.17 3.82,21.34l1.89,0.66C7.19,17.22 9.04,12 16,10c-3,0 -3,0 -5.03,-3c-1.75,1.83 -2.41,3.72 -2.41,3.72s-0.09,-0.78 -0.09,-2.05C8.47,4.25 14,4 16,4c4,0 7,3 7,7C23,15 17,8 17,8z"/>
+</vector>
+
